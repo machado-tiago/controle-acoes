@@ -14,5 +14,5 @@ app.get(['/','/posicao'], (req, res) => {
 app.get('/bovespa', (req, res) => {
     res.render('./pages/bovespa')
 })
-process.stdout.write("application running ...")
+process.stdout.write("running application ...")
 process.stdout.on('close', ()=>process.stdout.write("application stopped"))
